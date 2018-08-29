@@ -37,12 +37,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+  color: #41c9bc;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #329c93;
 }
 
 h1 {
@@ -105,7 +105,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #ffa467;
 }
 
 .btn-primary {
@@ -387,7 +387,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #FFA467;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -405,10 +405,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #ffa467 0%, #fdc546 100%);
+    background-image: -webkit-linear-gradient( 122deg, #ffa467 0%, #fdc546 100%);
+    background-image: -ms-linear-gradient( 122deg, #ffa467 0%, #fdc546 100%);
+    background-image: linear-gradient( 122deg, #ffa467 0%, #fdc546 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -526,7 +526,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: #e7d9eb;
+    background: #f5dcbe;
     width: 35px;
     height: 8px;
     border-radius: 10px;
@@ -534,11 +534,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #ffa467;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #ffa467;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -666,13 +666,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #41c9bc;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #329c93;
 }
 
 @media (max-width:991px) {

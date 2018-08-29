@@ -186,10 +186,10 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(255, 164, 103) 0%, rgb(253, 197, 70) 100%);
+    background-color: rgb(255, 255, 255);
+    background: -moz-linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -203,6 +203,37 @@ p.lead {
     position: relative;
 }
 
+.menu-is-open .navbar-light .navbar-brand,
+.menu-is-open .navbar-light .navbar-nav .nav-link.active,
+.menu-is-open .navbar-light .navbar-nav .nav-link {
+    color: #ffa467;
+}
+
+.is-scrolling .navbar-light .navbar-brand,
+.is-scrolling .navbar-light .navbar-nav .nav-link.active,
+.is-scrolling .navbar-light .navbar-nav .nav-link {
+    color: #ffa467;
+}
+
+.is-scrolling .btn-outline-light,
+.menu-is-open .btn-outline-light {
+    color: #FFA467;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FFA467;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -211,7 +242,17 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #ffe925;
+        border-bottom: 2px solid #ffffff;
+        left: 1rem;
+        right: 1rem;
+        bottom: 5px;
+        height: 1px;
+        position: absolute;
+    }
+
+    .is-scrolling .navbar-nav>.nav-item>.nav-link.active:after {
+        content: "";
+        border-bottom: 2px solid #FFA467;
         left: 1rem;
         right: 1rem;
         bottom: 5px;

@@ -41,8 +41,9 @@ form h1 {
   text-transform: uppercase;
 }
 form button {
+  width: 38%;
   margin-top: 28px;
-  background-color: white;
+  background-color: #ffa467;
   border: 1px solid #ffa467;
   line-height: 0;
   font-size: 17px;
@@ -50,7 +51,7 @@ form button {
   box-sizing: border-box;
   padding: 18px 16px;
   border-radius: 60px;
-  color: #ffa467;
+  color: white;
   font-weight: 100;
   letter-spacing: 0.01em;
   position: relative;

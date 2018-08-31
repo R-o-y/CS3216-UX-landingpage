@@ -20,8 +20,9 @@ body{
 form {
   position: relative;
   display: inline-block;
-  max-width: 700px;
-  /* min-width: 500px; */
+  width: 88%;
+  max-width: 480px;
+  /* min-width: 80%; */
   box-sizing: border-box;
   padding: 38px 25px 28px 25px;
   background-color: white;

@@ -111,11 +111,13 @@ form .question input[type="text"]:valid {
   margin-top: 38px;
 }
 form .question input[type="text"]:focus + label {
+  font-size: 80%;
   transform: translate(0, -38px);
 }
 form .question input[type="text"]:valid + label {
   /* text-transform: uppercase; */
   /* font-style: italic; */
   /* transform: translate(5px, -35px) scale(0.6); */
+  font-size: 80%;
   transform: translate(0px, -38px);
 }

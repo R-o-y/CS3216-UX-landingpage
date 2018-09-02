@@ -37,12 +37,12 @@ body {
 }
 
 a {
-  color: #41c9bc;
+  color: #FFA467;
 }
 
 a:hover,
 a:focus {
-    color: #329c93;
+    color: #d68a56;
 }
 
 h1 {
@@ -665,13 +665,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #41c9bc;
+    color: #FFA467;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #329c93;
+    color: #d68a56;
 }
 
 @media (max-width:991px) {
